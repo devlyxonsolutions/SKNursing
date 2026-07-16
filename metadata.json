@@ -1,0 +1,6 @@
+{
+  "name": "S K Nursing College",
+  "description": "A premium nursing college dedicated to building compassionate healthcare professionals, offering General Nursing & Midwifery (GNM) programs with state-of-the-art clinical laboratories and hospital partnerships.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
