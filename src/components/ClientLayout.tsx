@@ -74,7 +74,7 @@ export default function ClientLayout({ children }: ClientLayoutProps) {
           <Facebook size={18} />
         </a>
         <a 
-          href="https://instagram.com" 
+          href="https://www.instagram.com/sknursingcollege?igsh=eTI2Zm55cW5rZDR2" 
           target="_blank" 
           rel="noopener noreferrer"
           className="w-9 h-9 bg-[#E1306C]/10 hover:bg-gradient-to-tr hover:from-[#FCAF45] hover:to-[#E1306C] text-[#E1306C] hover:text-white rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-sm"
