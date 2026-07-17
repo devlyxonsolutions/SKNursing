@@ -169,40 +169,23 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* SEO Organization Schemas representation */}
-      <div className="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-gray-800 text-xs text-gray-500 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-        <div className="flex flex-wrap items-center gap-3">
-          <span className="flex items-center space-x-1">
-            <CheckCircle size={12} className="text-green-500" />
-            <span>Sitemap Active</span>
-          </span>
-          <span>•</span>
-          <span className="flex items-center space-x-1">
-            <CheckCircle size={12} className="text-green-500" />
-            <span>Robots.txt Set</span>
-          </span>
-          <span>•</span>
-          <span className="flex items-center space-x-1">
-            <FileText size={12} className="text-brand-gold" />
-            <span>Structured Data (JSON-LD) Injected</span>
-          </span>
-        </div>
-        <div>
-          <button
-            onClick={() => handleNavClick('gallery')}
-            className="hover:text-white underline transition duration-200"
-          >
-            Interactive Events Gallery & Media Log
-          </button>
-        </div>
-      </div>
 
-      <div className="max-w-7xl mx-auto px-4 mt-6 text-center text-xs text-gray-500 flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
-        <p>© {currentYear} S K Nursing College. All Rights Reserved. Built with Academic Pride.</p>
-        <p className="flex items-center justify-center space-x-1 text-[11px]">
-          <span>Made with</span>
-          <Heart size={10} className="text-red-500 fill-red-500" />
-          <span>for Compassionate Nursing Care.</span>
+
+      <div className="max-w-7xl mx-auto px-4 mt-8 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+        <p>
+          © {currentYear} S K Nursing College. All Rights Reserved.
+        </p>
+
+        <p>
+          Designed & Developed by{" "}
+          <a
+            href="https://devlyxonsolutions.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-brand-gold font-semibold hover:underline"
+          >
+            Devlyxon Solutions
+          </a>
         </p>
       </div>
     </footer>
