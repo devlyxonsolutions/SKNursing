@@ -4,6 +4,7 @@ import React from 'react';
 import { useRouter } from 'next/navigation';
 import { ShieldCheck, Users, HeartPulse, Building2 } from 'lucide-react';
 import Hero from '../components/Hero';
+import RecognitionsSection from "../components/RecognitionsSection";
 import CourseSection from '../components/CourseSection';
 import FacilitiesSection from '../components/FacilitiesSection';
 import StudentSection from '../components/StudentSection';
@@ -21,6 +22,8 @@ export default function HomePage() {
     <div className="space-y-0">
       {/* Hero Banner with Slides */}
       <Hero />
+
+      <RecognitionsSection />
 
       {/* About Brief intro */}
       <section className="py-20 bg-white">
@@ -124,6 +127,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+       
 
       {/* Program Overview Quick teaser */}
       <CourseSection />

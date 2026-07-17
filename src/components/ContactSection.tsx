@@ -14,7 +14,7 @@ export default function ContactSection() {
     phone: '',
     message: ''
   });
-  
+
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
 
@@ -54,7 +54,7 @@ export default function ContactSection() {
   return (
     <section className="py-20 bg-light-gray" id="contact-desk">
       <div className="max-w-7xl mx-auto px-4 space-y-16">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
           <span className="text-xs font-display font-bold uppercase tracking-widest text-brand-gold bg-brand-gold/10 px-3 py-1 rounded-full">
@@ -69,10 +69,10 @@ export default function ContactSection() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          
+
           {/* Left Column: Coordinates Cards */}
           <div className="lg:col-span-5 space-y-6">
-            
+
             {/* Campus Address */}
             <div className="bg-white p-6 sm:p-8 rounded-3xl border border-gray-100 shadow-sm space-y-4 flex items-start space-x-4">
               <div className="p-3.5 bg-brand-blue/5 text-brand-blue rounded-2xl shrink-0">
@@ -84,9 +84,9 @@ export default function ContactSection() {
                   {COLLEGE_INFO.address}
                 </p>
                 <div className="pt-2">
-                  <a 
-                    href="https://maps.google.com" 
-                    target="_blank" 
+                  <a
+                    href="https://maps.google.com"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center space-x-1 text-xs text-brand-gold font-semibold hover:underline"
                   >
@@ -145,8 +145,8 @@ export default function ContactSection() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-1">
                   <label className="text-xs font-semibold text-gray-600">Full Name *</label>
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
                     name="name"
                     value={formData.name}
                     onChange={handleInputChange}
@@ -158,8 +158,8 @@ export default function ContactSection() {
 
                 <div className="space-y-1">
                   <label className="text-xs font-semibold text-gray-600">Email Address *</label>
-                  <input 
-                    type="email" 
+                  <input
+                    type="email"
                     name="email"
                     value={formData.email}
                     onChange={handleInputChange}
@@ -172,8 +172,8 @@ export default function ContactSection() {
 
               <div className="space-y-1">
                 <label className="text-xs font-semibold text-gray-600">Phone Number *</label>
-                <input 
-                  type="tel" 
+                <input
+                  type="tel"
                   name="phone"
                   value={formData.phone}
                   onChange={handleInputChange}
@@ -186,7 +186,7 @@ export default function ContactSection() {
 
               <div className="space-y-1">
                 <label className="text-xs font-semibold text-gray-600">Your Message / Inquiry *</label>
-                <textarea 
+                <textarea
                   name="message"
                   value={formData.message}
                   onChange={handleInputChange}
@@ -216,42 +216,22 @@ export default function ContactSection() {
 
         </div>
 
-        {/* Styled Google Map Placeholder */}
-        <div className="bg-white rounded-3xl overflow-hidden border border-gray-100 shadow-sm relative h-96 flex flex-col justify-end">
-          {/* Aesthetic Map graphics representation using Tailwind CSS */}
-          <div className="absolute inset-0 bg-slate-100 z-0 flex flex-col items-center justify-center text-center p-6 space-y-4">
-            {/* Styled background paths simulating map grids */}
-            <div className="absolute inset-0 opacity-15" style={{ 
-              backgroundImage: 'radial-gradient(#334FA2 1px, transparent 1px), linear-gradient(180deg, transparent 40px, #334FA2 40px), linear-gradient(90deg, transparent 40px, #334FA2 40px)',
-              backgroundSize: '24px 24px, 120px 120px, 120px 120px'
-            }} />
-            
-            <div className="w-16 h-16 bg-brand-blue rounded-full border-4 border-white text-white flex items-center justify-center shadow-lg relative z-10 animate-bounce">
-              <MapPin size={28} className="text-brand-gold fill-brand-gold/10" />
-            </div>
-
-            <div className="relative z-10 max-w-md space-y-1.5">
-              <h4 className="font-display font-extrabold text-sm sm:text-base text-dark-navy">S K Nursing Campus (Sangli)</h4>
-              <p className="text-xs text-gray-500 leading-relaxed font-sans font-light">
-                Peth Shirala Road, Tal: Walwa, Dist: Sangli, Rethre dharan, Maharashtra 415407.
-              </p>
-              <span className="text-[10px] bg-brand-gold/20 text-brand-gold-dark font-extrabold uppercase px-2.5 py-1 rounded inline-block font-sans">
-                ISO Certified Educational Campus
-              </span>
-            </div>
-            
-            {/* Interactive direction simulator */}
-            <a 
-              href="https://maps.google.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="relative z-10 bg-brand-blue hover:bg-brand-blue-hover text-white text-xs font-bold px-5 py-3 rounded-xl flex items-center space-x-1.5 transition shadow"
-            >
-              <Navigation size={14} className="text-brand-gold" />
-              <span>Launch Google Maps Route</span>
-            </a>
-          </div>
+        {/* Google Map */}
+        <div className="bg-white rounded-3xl overflow-hidden border border-gray-100 shadow-lg">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2867.8748258978117!2d74.17289461849822!3d17.00509825868084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1a11d20c8453b%3A0x6ac87b4a72e1469e!2sS%20K%20International%20Sainik%20School!5e1!3m2!1sen!2sin!4v1784271464167!5m2!1sen!2sin"
+            width="100%"
+            height="500"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title="S K Nursing College Location"
+          />
         </div>
+
+
+
 
       </div>
     </section>

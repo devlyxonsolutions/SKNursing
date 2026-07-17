@@ -152,31 +152,7 @@ export default function Hero() {
         </div>
 
 
-        {/* Recognitions */}
-        <div className="mt-10">
-          <p className="text-gray-300 text-sm uppercase tracking-[0.25em] font-semibold mb-5">
-            Recognized & Affiliated By
-          </p>
-
-          <div className="flex flex-wrap items-center gap-6">
-
-            <Image
-              src="/mnc.svg"
-              alt="Maharashtra Nursing Council"
-              width={65}
-              height={65}
-              className="bg-white rounded-xl p-2 shadow-lg"
-            />
-
-            <Image
-              src="/msbnpe.svg"
-              alt="MSBNPE"
-              width={65}
-              height={65}
-              className="bg-white rounded-xl p-2 shadow-lg"
-            />
-          </div>
-        </div>
+       
       </div>
 
       {/* Slide Navigation & Visual Authority Indicators */}
