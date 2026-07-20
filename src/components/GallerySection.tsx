@@ -27,36 +27,47 @@ const INITIAL_FOLDERS: GalleryFolder[] = [
     id: "fld-nurses-day",
     name: "International Nurses Day 2026",
     description: "Florence Nightingale lamp lighting, oath-taking ceremony, and student presentations.",
-    coverImage: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/lamp.webp",
     createdAt: "12 May 2026",
     images: [
       {
         id: "img-n1",
-        url: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=1200&q=80",
+        url: "/images/lamp.webp",
         caption: "Lamp lighting oath-taking ceremony on International Nurses Day."
       },
       {
         id: "img-n2",
-        url: "https://images.unsplash.com/photo-1579684389782-64d84b5e901a?auto=format&fit=crop&w=1200&q=80",
+        url: "/images/lamp1.webp",
         caption: "Students receiving their nurse caps during the graduation event."
-      }
+      },
+       {
+      id: "img-n3",
+      url: "/images/lamp2.webp",
+      caption: "Nursing students taking the Florence Nightingale pledge during the celebration."
+    },
+    {
+      id: "img-n4",
+      url: "/images/lamp3.webp",
+      caption: "Group photograph of nursing students and faculty after the Nurses Day ceremony."
+    }
     ]
   },
+
   {
     id: "fld-labs",
     name: "Clinical Laboratories & Training Wards",
     description: "Hands-on procedural practices in our fully equipped diagnostic and pediatric labs.",
-    coverImage: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "images/waste.webp",
     createdAt: "22 April 2026",
     images: [
       {
         id: "img-l1",
-        url: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=80",
+        url: "images/waste.webp",
         caption: "Students practicing clinical procedures in the primary demonstration laboratory."
       },
       {
         id: "img-l2",
-        url: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1200&q=80",
+        url: "images/waste1.webp",
         caption: "Senior faculty guiding bedside pediatric nursing and ICU simulation protocols."
       }
     ]

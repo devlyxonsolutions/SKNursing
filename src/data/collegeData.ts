@@ -174,38 +174,44 @@ export const FACULTY_MEMBERS: FacultyMember[] = [
 ];
 
 export const STUDENT_EVENTS: EventItem[] = [
+  
   {
     id: "evt1",
     title: "International Nurses Day Celebration",
     date: "12th May, 2026",
-    description: "A grand commemoration celebrating Florence Nightingale's legacy, featuring lamp lighting, oath-taking, research paper presentations, and alumni panel discussions.",
-    image: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&q=80",
-    category: "academic"
+    description:
+      "A grand commemoration celebrating Florence Nightingale's legacy, featuring lamp lighting, oath-taking, research paper presentations, and alumni panel discussions.",
+    image: "/images/events/international-nurses-day.jpg",
+    category: "academic",
   },
   {
     id: "evt2",
     title: "Rural Healthcare & Immunization Drive",
     date: "28th April, 2026",
-    description: "Our GNM students successfully set up and managed rural medical screening booths and infant polio vaccination drives in rural Saswad under the MNC guidance.",
-    image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80",
-    category: "social"
+    description:
+      "Our GNM students successfully set up and managed rural medical screening booths and infant polio vaccination drives in rural Saswad under the MNC guidance.",
+    image: "/images/events/rural-healthcare-drive.jpg",
+    category: "social",
   },
   {
     id: "evt3",
     title: "Symphony - Inter-College Cultural Fest",
     date: "14th February, 2026",
-    description: "An annual socio-cultural platform bringing nursing colleges across Maharashtra together for drama, musical symphony, therapeutic dance contests, and rangoli exhibitions.",
-    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80",
-    category: "cultural"
+    description:
+      "An annual socio-cultural platform bringing nursing colleges across Maharashtra together for drama, musical symphony, therapeutic dance contests, and rangoli exhibitions.",
+    image: "/images/events/cultural-fest.jpg",
+    category: "cultural",
   },
   {
     id: "evt4",
     title: "State-Level Disaster Response Workshop",
     date: "10th January, 2026",
-    description: "Hands-on simulations on disaster triage, advanced airway administration, field dressings, and mass casualty patient logistics, certified by top trauma physicians.",
-    image: "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80",
-    category: "academic"
-  }
+    description:
+      "Hands-on simulations on disaster triage, advanced airway administration, field dressings, and mass casualty patient logistics, certified by top trauma physicians.",
+    image: "/images/events/disaster-response-workshop.jpg",
+    category: "academic",
+  },
+
 ];
 
 export const PLACEMENTS = [
