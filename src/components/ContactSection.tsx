@@ -107,9 +107,6 @@ export default function ContactSection() {
                 <p className="text-xs text-gray-500 font-sans font-light">
                   Mobile Desk: <strong className="text-dark-navy">{COLLEGE_INFO.mobile}</strong>
                 </p>
-                <p className="text-xs text-gray-500 font-sans font-light">
-                  Landline Registry: <strong className="text-dark-navy">{COLLEGE_INFO.phone}</strong>
-                </p>
                 <p className="text-[10px] text-brand-gold font-mono uppercase tracking-wider font-bold">
                   Available Mon-Sat (9:00 AM to 5:00 PM)
                 </p>
