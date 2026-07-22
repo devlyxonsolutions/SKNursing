@@ -242,25 +242,30 @@ export default function CourseSection() {
               </div>
             </div>
 
-            {/* ANM */}
-            <div className="bg-white/80 p-6 rounded-2xl border border-gray-100 flex flex-col justify-between relative overflow-hidden group hover:border-brand-gold/30 transition-all duration-300">
-              <div className="absolute top-0 right-0 bg-brand-gold/10 text-brand-gold text-[9px] uppercase tracking-widest font-extrabold px-3 py-1 rounded-bl-xl border-l border-b border-brand-gold/10">
-                Launching Soon
-              </div>
-              <div className="space-y-3">
-                <h4 className="font-display font-extrabold text-lg text-dark-navy group-hover:text-brand-blue transition duration-200">
-                  Auxiliary Nurse Midwifery (ANM)
-                </h4>
-                <p className="text-xs text-gray-500 font-sans font-light leading-relaxed">
-                  A 2-year diploma centering on basic maternity services, rural wellness centers, first aid assistance, and infant nourishment tracking programs.
-                </p>
-              </div>
-              <div className="flex items-center space-x-4 mt-4 text-[11px] font-semibold text-gray-400">
-                <span>Duration: 2 Years</span>
-                <span>•</span>
-                <span>Type: Auxiliary Diploma</span>
-              </div>
-            </div>
+            {/* P.B.B.Sc. Nursing */}
+<div className="bg-white/80 p-6 rounded-2xl border border-gray-100 flex flex-col justify-between relative overflow-hidden group hover:border-brand-gold/30 transition-all duration-300">
+  <div className="absolute top-0 right-0 bg-brand-gold/10 text-brand-gold text-[9px] uppercase tracking-widest font-extrabold px-3 py-1 rounded-bl-xl border-l border-b border-brand-gold/10">
+    Launching Soon
+  </div>
+
+  <div className="space-y-3">
+    <h4 className="font-display font-extrabold text-lg text-dark-navy group-hover:text-brand-blue transition duration-200">
+      Post Basic BSc. Nursing (P.B.BSc. Nursing)
+    </h4>
+
+    <p className="text-xs text-gray-500 font-sans font-light leading-relaxed">
+      A 2-year undergraduate nursing program designed for GNM-qualified
+      registered nurses to enhance their clinical expertise, leadership,
+      research, community health, and professional nursing practice.
+    </p>
+  </div>
+
+  <div className="flex items-center space-x-4 mt-4 text-[11px] font-semibold text-gray-400">
+    <span>Duration: 2 Years</span>
+    <span>•</span>
+    <span>Type: Undergraduate Degree</span>
+  </div>
+</div>
           </div>
         </div>
 

@@ -196,7 +196,7 @@ export default function Header() {
                             </div>
                             <div className="flex items-center space-x-1.5 p-1 bg-white rounded border border-gray-100">
                               <span className="w-1.5 h-1.5 rounded-full bg-brand-gold"></span>
-                              <span>ANM Program (Upcoming)</span>
+                              <span>PB BSc. Nursing (Upcoming)</span>
                             </div>
                           </div>
                         </div>

@@ -1,6 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/departments/page": "app/departments/page.js",
-  "/gallery/page": "app/gallery/page.js",
-  "/student/page": "app/student/page.js"
-}

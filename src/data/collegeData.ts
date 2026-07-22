@@ -3,14 +3,13 @@ import { FacultyMember, FacilityItem, EventItem, AchievementItem, TestimonialIte
 export const COLLEGE_INFO = {
   name: "S K Nursing College",
   tagline: "Building Compassionate Healthcare Professionals",
-  established: "2018",
+  established: "2025",
   location: "Sangli, Maharashtra",
   address: "Sk Nursing College, Peth Shirala Road, Tal: Walwa, Dist: Sangli, Rethre dharan, Maharashtra 415407",
-  phone: "+91 2342 276543",
-  mobile: "+91 98765 43210",
+  mobile: "+91 86258 68626",
   email: "admissions@sknursing.org.in",
   infoEmail: "info@sknursing.org.in",
-  whatsapp: "919876543210",
+  whatsapp: "+91 86258 68626",
   board: "Maharashtra State Board of Nursing and Paramedical Education (MSBNPE), Mumbai",
   approval: "Indian Nursing Council (INC), New Delhi & Maharashtra Nursing Council (MNC), Mumbai"
 };
@@ -19,7 +18,7 @@ export const PRINCIPAL_MESSAGE = {
   name: "Dr.Kishor Mahapure",
   designation: "Principal, S K Nursing College",
   qualification: "M.Sc. Nursing (OBGY), Ph.D. in Nursing Science",
-  experience: "24+ Years of Academic & Clinical Leadership",
+  experience: "5+ Years of Academic & Clinical Leadership",
   image: "/principle.png",
   message: "Welcome to S K Nursing College. Nursing is more than a profession; it is a sacred calling to heal, comfort, and care. Our college stands as a beacon of clinical excellence and compassionate service. We are committed to nurturing the next generation of healthcare pioneers by providing INC-compliant infrastructure, state-of-the-art diagnostic and clinical laboratories, and robust multi-specialty hospital collaborations. Through GNM training, we prepare our students to deliver world-class bedside care, excel in emergency response, and champion community health initiatives. I invite you to join us on this transformative journey to build a healthier tomorrow."
 };
@@ -215,36 +214,51 @@ export const STUDENT_EVENTS: EventItem[] = [
 ];
 
 export const PLACEMENTS = [
-  { hospital: "Sahyadri Multi-Specialty Hospitals, Karad", intake: "12 Students", logoLetter: "S" },
-  { hospital: "Krishna Hospital & Medical Research Centre, Karad", intake: "9 Students", logoLetter: "K" },
-  { hospital: "Civil Hospital, Sangli", intake: "8 Students", logoLetter: "C" },
-  { hospital: "Bharti Vidyapeeth Centenary Hospital, Sangli", intake: "6 Students", logoLetter: "B" },
-  { hospital: "CPR Multi-Specialty Hospital, Kolhapur", intake: "5 Students", logoLetter: "C" }
-];
-
-export const ACHIEVEMENTS: AchievementItem[] = [
   {
-    id: "ach1",
-    title: "100% MSBNPE Board Exam Pass Rate",
-    year: "Batch of 2023-24",
-    description: "Our final-year GNM cohort registered an unprecedented 100% passing average with over 70% of students scoring distinctions in the board examination.",
-    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80"
+    hospital: "Laxmi Narayan Hospital, Ishwarpur",
+    category: "Parental Hospital",
+    logoLetter: "L"
   },
   {
-    id: "ach2",
-    title: "First Prize in State-Level Quiz Competition",
-    year: "2025",
-    description: "S K Nursing College GNM team won the prestigious gold medal at the Maharashtra State Association of Nursing Quiz held in Mumbai.",
-    image: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=800&q=80"
+    hospital: "Aadhar Future Care Hospital, Islampur LLP",
+    category: "Affiliated Hospital",
+    logoLetter: "A"
   },
   {
-    id: "ach3",
-    title: "Best Community Outreach Recognition",
-    year: "2025",
-    description: "Honored by the Municipal Corporation for running consistent health awareness campaigns, dietary workshops, and hygienic living drives in semi-urban sectors.",
-    image: "https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=800&q=80"
+    hospital: "Swastik Multispeciality Hospital, Shirala",
+    category: "Multispeciality Hospital",
+    logoLetter: "S"
+  },
+  {
+    hospital: "Swastik Hospital, Kolhapur",
+    category: "Psychiatric Hospital",
+    logoLetter: "S"
   }
 ];
+
+// export const ACHIEVEMENTS: AchievementItem[] = [
+//   {
+//     id: "ach1",
+//     title: "100% MSBNPE Board Exam Pass Rate",
+//     year: "Batch of 2023-24",
+//     description: "Our final-year GNM cohort registered an unprecedented 100% passing average with over 70% of students scoring distinctions in the board examination.",
+//     image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80"
+//   },
+//   {
+//     id: "ach2",
+//     title: "First Prize in State-Level Quiz Competition",
+//     year: "2025",
+//     description: "S K Nursing College GNM team won the prestigious gold medal at the Maharashtra State Association of Nursing Quiz held in Mumbai.",
+//     image: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=800&q=80"
+//   },
+//   {
+//     id: "ach3",
+//     title: "Best Community Outreach Recognition",
+//     year: "2025",
+//     description: "Honored by the Municipal Corporation for running consistent health awareness campaigns, dietary workshops, and hygienic living drives in semi-urban sectors.",
+//     image: "https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=800&q=80"
+//   }
+// ];
 
 export const GALLERY_IMAGES = [
   {
@@ -279,32 +293,32 @@ export const GALLERY_IMAGES = [
   }
 ];
 
-export const TESTIMONIALS: TestimonialItem[] = [
-  {
-    id: "test1",
-    name: "Pooja S. Kadam",
-    role: "Staff Nurse, Critical Care Unit",
-    batch: "GNM Batch of 2019-22",
-    message: "Studying at S K Nursing College was life-changing. The rigorous clinical training and support from Mrs. Anjali Joshi made me confident in managing high-pressure ICU environments. Our bedside training and state-of-the-art laboratory practice are why I excel today at Sahyadri Hospital.",
-    rating: 5
-  },
-  {
-    id: "test2",
-    name: "Rohan D. More",
-    role: "Midwifery & Community Specialist",
-    batch: "GNM Batch of 2020-23",
-    message: "What stands out about SKNC is the emphasis on community clinical rotations. The community nursing lab prepared us perfectly to administer healthcare in rural outposts. The board preparation is outstanding!",
-    rating: 5
-  },
-  {
-    id: "test3",
-    name: "Meera Patel",
-    role: "Senior Pediatrics Nurse",
-    batch: "GNM Batch of 2018-21",
-    message: "S K Nursing College offers a premium learning atmosphere. The smart classrooms, fully outfitted Pediatric mannequin lab, and partnerships with Sangli and Karad's top super-specialty clinics made my career transition absolutely seamless.",
-    rating: 5
-  }
-];
+// export const TESTIMONIALS: TestimonialItem[] = [
+//   {
+//     id: "test1",
+//     name: "Pooja S. Kadam",
+//     role: "Staff Nurse, Critical Care Unit",
+//     batch: "GNM Batch of 2019-22",
+//     message: "Studying at S K Nursing College was life-changing. The rigorous clinical training and support from Mrs. Anjali Joshi made me confident in managing high-pressure ICU environments. Our bedside training and state-of-the-art laboratory practice are why I excel today at Sahyadri Hospital.",
+//     rating: 5
+//   },
+//   {
+//     id: "test2",
+//     name: "Rohan D. More",
+//     role: "Midwifery & Community Specialist",
+//     batch: "GNM Batch of 2020-23",
+//     message: "What stands out about SKNC is the emphasis on community clinical rotations. The community nursing lab prepared us perfectly to administer healthcare in rural outposts. The board preparation is outstanding!",
+//     rating: 5
+//   },
+//   {
+//     id: "test3",
+//     name: "Meera Patel",
+//     role: "Senior Pediatrics Nurse",
+//     batch: "GNM Batch of 2018-21",
+//     message: "S K Nursing College offers a premium learning atmosphere. The smart classrooms, fully outfitted Pediatric mannequin lab, and partnerships with Sangli and Karad's top super-specialty clinics made my career transition absolutely seamless.",
+//     rating: 5
+//   }
+// ];
 
 export const FAQS: FAQItem[] = [
   {

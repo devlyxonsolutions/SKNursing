@@ -159,7 +159,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center space-x-2.5">
               <Phone size={16} className="text-brand-gold shrink-0" />
-              <span>{COLLEGE_INFO.mobile} / {COLLEGE_INFO.phone}</span>
+              <span>{COLLEGE_INFO.mobile}</span>
             </li>
             <li className="flex items-center space-x-2.5">
               <Mail size={16} className="text-brand-gold shrink-0" />
