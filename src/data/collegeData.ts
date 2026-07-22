@@ -17,8 +17,8 @@ export const COLLEGE_INFO = {
 export const PRINCIPAL_MESSAGE = {
   name: "Dr.Kishor Mahapure",
   designation: "Principal, S K Nursing College",
-  qualification: "M.Sc. Nursing (OBGY), Ph.D. in Nursing Science",
-  experience: "5+ Years of Academic & Clinical Leadership",
+  qualification: "M.Sc. Nursing (OBGY).",
+  experience: "15+ Years of Academic & Clinical Leadership",
   image: "/principle.png",
   message: "Welcome to S K Nursing College. Nursing is more than a profession; it is a sacred calling to heal, comfort, and care. Our college stands as a beacon of clinical excellence and compassionate service. We are committed to nurturing the next generation of healthcare pioneers by providing INC-compliant infrastructure, state-of-the-art diagnostic and clinical laboratories, and robust multi-specialty hospital collaborations. Through GNM training, we prepare our students to deliver world-class bedside care, excel in emergency response, and champion community health initiatives. I invite you to join us on this transformative journey to build a healthier tomorrow."
 };
@@ -132,44 +132,44 @@ export const INFRASTRUCTURE_FACILITIES: FacilityItem[] = [
 export const FACULTY_MEMBERS: FacultyMember[] = [
   {
     id: "fac1",
-    name: "Dr. Sunita K. Deshmukh",
+    name: "Mr. Kishor Mahapure",
     designation: "Principal & Professor",
-    qualification: "M.Sc. Nursing (OBGY), Ph.D. in Nursing Science",
+    qualification: "M.Sc. Nursing (OBGY).",
     experience: "24 Years",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "fac2",
-    name: "Prof. Rajesh M. Shinde",
-    designation: "Vice-Principal & Professor",
+    name: "Ms. Rohini Sawant",
+    designation: "Nursing Tutor",
     qualification: "M.Sc. Nursing (Medical-Surgical), MBA (Hospital Admin)",
-    experience: "18 Years",
+    experience: "2 Years",
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80"
   },
   {
     id: "fac3",
-    name: "Mrs. Anjali V. Joshi",
-    designation: "Associate Professor",
-    qualification: "M.Sc. Nursing (Pediatrics), B.Sc. Nursing",
-    experience: "12 Years",
+    name: "Ms. Pratiksha Kamble",
+    designation: "Nursing Tutor",
+    qualification: " B.Sc. Nursing",
+    experience: "2 Years",
     image: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80"
   },
-  {
-    id: "fac4",
-    name: "Mrs. Priya S. Patil",
-    designation: "Assistant Professor",
-    qualification: "M.Sc. Nursing (Community Health Nursing)",
-    experience: "9 Years",
-    image: "https://images.unsplash.com/photo-1594744803329-e58b31de215f?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    id: "fac5",
-    name: "Mr. Amit R. Kulkarni",
-    designation: "Senior Clinical Instructor",
-    qualification: "B.Sc. Nursing, Post-Basic Diploma in Critical Care",
-    experience: "7 Years",
-    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80"
-  }
+  // {
+  //   id: "fac4",
+  //   name: "Mrs. Priya S. Patil",
+  //   designation: "Assistant Professor",
+  //   qualification: "M.Sc. Nursing (Community Health Nursing)",
+  //   experience: "9 Years",
+  //   image: "https://images.unsplash.com/photo-1594744803329-e58b31de215f?auto=format&fit=crop&w=800&q=80"
+  // },
+  // {
+  //   id: "fac5",
+  //   name: "Mr. Amit R. Kulkarni",
+  //   designation: "Senior Clinical Instructor",
+  //   qualification: "B.Sc. Nursing, Post-Basic Diploma in Critical Care",
+  //   experience: "7 Years",
+  //   image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80"
+  // }
 ];
 
 export const STUDENT_EVENTS: EventItem[] = [
