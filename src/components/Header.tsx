@@ -43,7 +43,6 @@ export default function Header() {
   const navItems: NavItem[] = [
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
-    { id: 'departments', label: 'Departments' },
     { id: 'course', label: 'GNM Course', hasDropdown: true },
     { id: 'admissions', label: 'Admissions' },
     { id: 'facilities', label: 'Facilities' },
