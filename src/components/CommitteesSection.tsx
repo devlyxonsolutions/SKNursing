@@ -187,7 +187,7 @@ export default function CommitteesSection() {
                     {comm.name}
                   </span>
                   <span className={`text-[10px] block mt-0.5 ${activeCommittee === comm.id ? 'text-gray-300' : 'text-gray-400'}`}>
-                    Chairman: {comm.chairman.split(' ')[1] || 'Principal'}
+                    Chairperson: {comm.chairman}
                   </span>
                 </div>
               </button>
