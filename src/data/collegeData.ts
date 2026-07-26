@@ -17,8 +17,8 @@ export const COLLEGE_INFO = {
 export const PRINCIPAL_MESSAGE = {
   name: "Dr.Kishor Mahapure",
   designation: "Principal, S K Nursing College",
-  qualification: "M.Sc. Nursing (OBGY).",
-  experience: "15+ Years of Academic & Clinical Leadership",
+  qualification: "PB B.Sc. Nursing.",
+  experience: "10+ Years of Academic & Clinical Leadership",
   image: "/principle.png",
   message: "Welcome to S K Nursing College. Nursing is more than a profession; it is a sacred calling to heal, comfort, and care. Our college stands as a beacon of clinical excellence and compassionate service. We are committed to nurturing the next generation of healthcare pioneers by providing INC-compliant infrastructure, state-of-the-art diagnostic and clinical laboratories, and robust multi-specialty hospital collaborations. Through GNM training, we prepare our students to deliver world-class bedside care, excel in emergency response, and champion community health initiatives. I invite you to join us on this transformative journey to build a healthier tomorrow."
 };

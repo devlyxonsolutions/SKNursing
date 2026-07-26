@@ -20,7 +20,7 @@ const COMMITTEES_DATA: Committee[] = [
   {
   id: "anti-ragging",
   name: "Anti-Ragging Committee",
-  chairman: "Mr. Sadashiv Khot (Bhau) - President",
+  chairman: "Mr. Sadabhau Khot (Bhau) - President",
   membersCount: 9,
   description:
     "S. K. Nursing College is committed to maintaining a safe, disciplined, and ragging-free campus. The Anti-Ragging Committee functions in accordance with the UGC Anti-Ragging Regulations and ensures that every student can pursue their education in a respectful and secure environment. The committee conducts awareness programmes, monitors campus activities, and takes immediate action against any act of ragging.",
@@ -34,7 +34,7 @@ const COMMITTEES_DATA: Committee[] = [
 
   contacts: [
     {
-      name: "Mr. Sadashiv Khot (Bhau)",
+      name: "Mr. Sadabhau Khot (Bhau)",
       role: "President",
       
     },
@@ -81,56 +81,58 @@ const COMMITTEES_DATA: Committee[] = [
   ]
 },
   {
-    id: "grievance",
-    name: "Student Grievance Redressal Cell",
-    chairman: "Prof. Rajesh M. Shinde (Vice-Principal)",
-    membersCount: 5,
-    description: "A fair and unbiased body designed to listen to, analyze, and resolve academic, infrastructure, or transport challenges faced by our nursing students. We guarantee absolute confidentiality and quick solutions within 48 hours of complaint lodging.",
-    guidelines: [
-      "Students can drop physical complaints into the Grievance Box near the administrative desk.",
-      "Online grievances can be registered at any time using our contact form or administrative emails.",
-      "The cell organizes a monthly review meeting to address feedback on hostel food, lab timing, and clinical rotations.",
-      "Fair opportunities of hearing are given to all parties involved."
-    ],
-    contacts: [
-      { name: "Prof. Rajesh M. Shinde", role: "Cell Chairman" },
-      { name: "Mrs. Priya S. Patil", role: "Member Secretary" }
-    ]
-  },
-  {
-    id: "women-cell",
-    name: "Women Empowerment & POSH Cell",
-    chairman: "Mrs. Anjali V. Joshi (Associate Professor)",
-    membersCount: 6,
-    description: "Committed to creating a gender-sensitive and safe clinical training atmosphere. This cell conducts workshops on safety during late-night clinical hospital rotations, handles prevention of sexual harassment cases (POSH), and organizes female leadership programs.",
-    guidelines: [
-      "Conduct regular self-defense and clinical safety seminars for all student nurses.",
-      "Immediate investigation of any gender-based discrimination or harassment reports.",
-      "Ensure secure transportation for night-shift clinical duties at our partner hospitals.",
-      "Promotion of health, hygiene, and wellness counseling services."
-    ],
-    contacts: [
-      { name: "Mrs. Anjali V. Joshi", role: "Cell Chairperson" },
-      { name: "Mrs. Priya S. Patil", role: "Senior Member" }
-    ]
-  },
-  {
-    id: "sna",
-    name: "Student Nurses Association (SNA)",
-    chairman: "Mrs. Priya S. Patil (Advisor)",
-    membersCount: 12,
-    description: "The Student Nurses Association (SNA) is a vibrant co-curricular body that fosters nursing pride, organizes regional cultural fests, manages community outreach programs, and guides the annual sports championships. It is run for the students, by the students.",
-    guidelines: [
-      "Oversee organizing the 'Symphony' Inter-College Nursing cultural festival.",
-      "Coordinate sports meets, health exhibition contests, and nutritional cooking campaigns.",
-      "Encourage student research submissions to state nursing journals.",
-      "Lead village wellness campaigns, health education drives, and blood donation drives."
-    ],
-    contacts: [
-      { name: "Mrs. Priya S. Patil", role: "SNA Advisor" },
-      { name: "Siddhesh R. Patil", role: "SNA Student President" }
-    ]
-  }
+  id: "grievance",
+  name: "Student Grievance Redressal Cell",
+  chairman: "Mr. Sadabhau Ramchandra Khot",
+  membersCount: 2,
+  description: "The Student Grievance Redressal Cell provides a transparent and student-friendly platform to address academic, administrative, and campus-related concerns. The committee is committed to resolving grievances promptly while maintaining fairness, confidentiality, and accountability.",
+  guidelines: [
+    "Students can submit their grievances through the college office or the official grievance mechanism.",
+    "All complaints are treated with complete confidentiality and impartiality.",
+    "The committee reviews and resolves grievances within the prescribed timeframe.",
+    "Students are encouraged to report academic, administrative, or campus-related issues without hesitation."
+  ],
+  contacts: [
+    { name: "Mr. Sadabhau Ramchandra Khot", role: "Cell Chairperson" },
+    { name: "Mr. Kishor Sanjay Mahapure", role: "Member Secretary" }
+  ]
+},
+{
+  id: "women-cell",
+  name: "Women Empowerment & POSH Cell",
+  chairman: "Mrs. Mohini Sagar Khot",
+  membersCount: 2,
+  description: "The Women Empowerment & POSH Cell is dedicated to promoting gender equality, ensuring a safe and respectful learning environment, and creating awareness about the Prevention of Sexual Harassment (POSH). The cell encourages confidence, leadership, and personal development among students.",
+  guidelines: [
+    "Promote awareness regarding women's rights and gender equality.",
+    "Provide a safe and secure environment free from harassment.",
+    "Address complaints related to sexual harassment with confidentiality and fairness.",
+    "Conduct awareness programs, workshops, and counseling sessions for students."
+  ],
+  contacts: [
+    { name: "Mrs. Mohini Sagar Khot", role: "Cell Chairperson" },
+    { name: "Ms. Rohini Sagar Sawant", role: "Senior Member" }
+  ]
+},
+{
+  id: "sna",
+  name: "Student Nurses Association (SNA)",
+  chairman: "Ms. Pratiksha Kamble",
+  membersCount: 2,
+  description: "The Student Nurses Association (SNA) encourages leadership, professional growth, teamwork, and social responsibility among nursing students. The association organizes academic, cultural, sports, and community outreach activities to enhance the overall development of future nursing professionals.",
+  guidelines: [
+    "Organize academic, cultural, and extracurricular activities throughout the year.",
+    "Promote leadership qualities and teamwork among student nurses.",
+    "Encourage participation in community health programs and awareness campaigns.",
+    "Support professional development through seminars, workshops, and competitions."
+  ],
+  contacts: [
+    { name: "Ms. Pratiksha Kamble", role: "SNA Advisor" },
+    { name: "Ms. Sonam Kamble", role: "SNA Student President" }
+  ]
+}
+ 
+  
 ];
 
 export default function CommitteesSection() {
